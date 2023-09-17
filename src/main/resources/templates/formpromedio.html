@@ -1,10 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link th:href="@{/styles/bootstrap.css}" rel="stylesheet" >
+    <script th:src="@{/scripts/bootstrap.bundle.js}" type="text/javascript" ></script>
 </head>
 <body>
-$END$
+
+<div class="card">
+    <div class="card-header">
+        Calculo  de promedio
+    </div>
+    <div class="card-body">
+
+        <form>
+
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="txtcl1" placeholder="name@example.com">
+                <label for="txtcl1">ingrese nota del cl1</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="txtcl2" placeholder="name@example.com">
+                <label for="txtcl2">ingrese nota del cl2</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="txtcl3" placeholder="name@example.com">
+                <label for="txtcl3">ingrese nota del cl3</label>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="number" class="form-control" id="txtprofin" placeholder="name@example.com">
+                <label for="txtprofin">ingrese nota del proyecto final</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">calcular promedio</button>
+
+            <hr />
+
+            <div class="alert alert-primary" role="alert">
+                A simple primary alert—check it out!
+            </div>
+
+
+
+        </form>
+
+    </div>
+</div>
+
 </body>
 </html>

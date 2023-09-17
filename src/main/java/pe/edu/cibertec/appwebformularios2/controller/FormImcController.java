@@ -1,2 +1,4 @@
-package pe.edu.cibertec.appwebformularios2.controller;public class FormImcController {
+package pe.edu.cibertec.appwebformularios2.controller;
+
+public class FormImcController {
 }

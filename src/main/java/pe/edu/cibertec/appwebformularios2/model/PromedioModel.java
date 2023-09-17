@@ -1,2 +1,4 @@
-package pe.edu.cibertec.appwebformularios2.model;public class PromedioModel {
+package pe.edu.cibertec.appwebformularios2.model;
+
+public class PromedioModel {
 }
